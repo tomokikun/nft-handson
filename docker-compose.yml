@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  truffle:
+    build: 
+      context: ./truffle/
+    volumes:
+      - ./truffle:/usr/src/app
+    tty: true
+    ports:
+      - "8003:3000"
+    depends_on: 
+      - ganache
+
+  ganache:
+    image: trufflesuite/ganache-cli:v6.12.2
+    volumes: 
+      - ./ganache:/usr/src/app
+    ports:
+      - "8545:8545"
