@@ -23,7 +23,7 @@ TODO: スマートコントラクトの説明追加 <br/>
    - `git clone git@github.com:tomokikun/nft-handson.git`
 2. Dockerコンテナを起動
    - `docker-compose up` 
-     - Imageをビルドした後、`truffle`コンテナと｀ganache`コンテナが起動するはず。
+     - Imageをビルドした後、`truffle`コンテナと`ganache`コンテナが起動するはず。
      - TODO: ganacheコンテナのログの内容の説明
 3. 別のターミナルを立ち上げる 
    - コンテナ内に入って作業する用です
@@ -59,6 +59,7 @@ TODO: スマートコントラクトの説明追加 <br/>
     }
     ...(略)
     ```
+    - `ganache`とコンテナ名を指定すると、`docker-compose`が自動的にIPアドレスに解決してくれます。
 8. ganacheの疎通確認
     - `truffle console` 
       - ```truffle(development)>```と表示されたら成功
