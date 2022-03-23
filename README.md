@@ -8,10 +8,13 @@ NFTをローカル環境で動かしてみるハンズオンです。
 ## 1. イントロダクション
 TODO: ブロックチェーンの説明追加 <br/>
 TODO: スマートコントラクトの説明追加 <br/>
-TODO: 開発に使うツールの説明追加 <br/>
 
-- [ganache](https://www.trufflesuite.com/docs/ganache/overview)
-- [truffle](https://trufflesuite.com/)
+### 今回のハンズオンで利用するツール
+
+名前| 概要
+-- | --
+[ganache](https://www.trufflesuite.com/docs/ganache/overview)　| ローカルで開発用のprivateブロックチェーンを構築
+[truffle](https://trufflesuite.com/) | スマートコントラクトの開発ツール（デプロイ、テストなど）
 
 ## 2. 環境構築
 まずは、開発環境を整えていきます。
