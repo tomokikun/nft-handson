@@ -134,4 +134,8 @@ truffle(development)> await web3.utils.fromWei(balance)
 
 # 📚 学習リソース
 より学びたい人のために、参考になる資料をまとめます。
+
+- https://docs.soliditylang.org/
+- https://cryptozombies.io/jp/
+
 TODO: 資料追加
